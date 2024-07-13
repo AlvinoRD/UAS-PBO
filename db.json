@@ -1,0 +1,124 @@
+{
+  "Product": [
+    {
+      "id": "0c6c",
+      "name": "Paramex",
+      "price": "20000",
+      "stock": 19
+    },
+    {
+      "id": "53ab",
+      "name": "Molexflu",
+      "price": "30000",
+      "stock": "34"
+    },
+    {
+      "id": "5a52",
+      "name": "Paramex Sakit Kepala",
+      "price": "2500",
+      "stock": 99
+    },
+    {
+      "id": "69f5",
+      "name": "Paramex Nyeri Otot",
+      "price": "2500",
+      "stock": "45"
+    },
+    {
+      "id": "b13a",
+      "name": "Entrostop",
+      "price": "10600",
+      "stock": "12"
+    },
+    {
+      "id": "9856",
+      "name": "Promag",
+      "price": "9000",
+      "stock": "200"
+    },
+    {
+      "id": "fb19",
+      "name": "OBH Combi",
+      "price": "16000",
+      "stock": "10"
+    },
+    {
+      "id": "1153",
+      "name": "Combatrin",
+      "price": "23000",
+      "stock": "10"
+    },
+    {
+      "id": "4abb",
+      "name": "Tolak Angin",
+      "price": "43000",
+      "stock": "5"
+    }
+  ],
+  "Invoice": [
+    {
+      "id": "d023",
+      "datetime": "2024-07-13T07:39:59.694Z",
+      "items": [
+        {
+          "product": {
+            "id": "d101",
+            "name": "Betadine",
+            "price": 1000,
+            "stock": 15
+          },
+          "quantity": 2
+        }
+      ],
+      "total": 2000
+    },
+    {
+      "id": "4e26",
+      "datetime": "2024-07-13T07:51:20.879Z",
+      "items": [
+        {
+          "product": {
+            "id": "d101",
+            "name": "Betadine",
+            "price": 10000,
+            "stock": 13
+          },
+          "quantity": 13
+        }
+      ],
+      "total": 130000
+    },
+    {
+      "id": "8b0e",
+      "datetime": "2024-07-13T07:51:33.023Z",
+      "items": [
+        {
+          "product": {
+            "id": "0c6c",
+            "name": "Paramex",
+            "price": "20000",
+            "stock": "12"
+          },
+          "quantity": 1
+        }
+      ],
+      "total": 20000
+    },
+    {
+      "id": "326e",
+      "datetime": "2024-07-13T10:32:58.168Z",
+      "items": [
+        {
+          "product": {
+            "id": "5a52",
+            "name": "Paramex Sakit Kepala",
+            "price": "2500",
+            "stock": "100"
+          },
+          "quantity": 1
+        }
+      ],
+      "total": 2500
+    }
+  ]
+}
