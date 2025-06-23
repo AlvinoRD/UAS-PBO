@@ -64,6 +64,6 @@ Untuk menjalankan proyek ini di lingkungan lokal, ikuti langkah-langkah berikut:
 
 ## Kontributor
 
-* **[Nama Anda]** - [NIM Anda]
+* **Alvino Radyo Danisworo** - A11.2022.14600
 
-Dibuat sebagai bagian dari Ujian Akhir Semester Pemrograman Berorientasi Objek.
+* Dibuat sebagai bagian dari Ujian Akhir Semester Pemrograman Berorientasi Objek.
