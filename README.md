@@ -1,69 +1,69 @@
-# Aplikasi Point of Sale (POS) Sederhana
+# Simple Point of Sale (POS) Application
 
-Selamat datang di repositori proyek UAS (Ujian Akhir Semester) untuk mata kuliah Pemrograman Berorientasi Objek (PBO). Proyek ini adalah aplikasi desktop Point of Sale (POS) sederhana yang dibangun menggunakan **Electron**, **Next.js**, **React**, dan **TypeScript**.
+Welcome to the repository for the Final Semester Exam (UAS) project for the Object-Oriented Programming (OOP) course. This project is a simple desktop Point of Sale (POS) application built using **Electron**, **Next.js**, **React**, and **TypeScript**.
 
-Aplikasi ini dirancang untuk mengelola produk, menangani transaksi penjualan, dan melihat riwayat invoice. Aplikasi ini menggunakan file `db.json` sebagai database lokal untuk menyimpan data produk dan transaksi.
+This application is designed to manage products, handle sales transactions, and view invoice history. The application uses a `db.json` file as a local database to store product and transaction data.
 
-## Demo Aplikasi
+## Application Demo
 
-Anda dapat melihat cara kerja dan penggunaan aplikasi melalui video demo di YouTube:
+You can see how the application works and how to use it through a demo video on YouTube:
 
-[Tonton Demo Aplikasi di YouTube](https://youtu.be/8ZtpMaRxa6M)
+[Watch the Application Demo on YouTube](https://youtu.be/8ZtpMaRxa6M)
 
-## Fitur Utama
+## Main Features
 
-* **Manajemen Produk**: Tambah, lihat, ubah, dan hapus produk. Setiap produk memiliki informasi nama, harga, dan stok.
-* **Keranjang Belanja**: Pengguna dapat mencari produk dan menambahkannya ke dalam keranjang.
-* **Proses Transaksi**: Aplikasi akan menghitung total belanja dan mengelola pembayaran.
-* **Riwayat Invoice**: Semua transaksi yang berhasil akan disimpan dan dapat dilihat kembali di halaman invoice.
-* **Penyimpanan Lokal**: Data aplikasi (produk dan invoice) disimpan secara lokal dalam format JSON, sehingga mudah untuk dikelola.
+* **Product Management**: Add, view, edit, and delete products. Each product contains information such as name, price, and stock.
+* **Shopping Cart**: Users can search for products and add them to the cart.
+* **Transaction Processing**: The application will calculate the total purchase and manage payment processing.
+* **Invoice History**: All successful transactions are saved and can be viewed again on the invoice page.
+* **Local Storage**: Application data (products and invoices) are stored locally in JSON format, making it easy to manage.
 
-## Teknologi yang Digunakan
+## Technologies Used
 
-* **Framework Aplikasi Desktop**: [Electron](https://www.electronjs.org/)
-* **Framework Frontend**: [Next.js](https://nextjs.org/) (dengan [React](https://reactjs.org/))
-* **Bahasa Pemrograman**: [TypeScript](https://www.typescriptlang.org/)
-* **Styling**: [Tailwind CSS](https://tailwindcss.com/) (berdasarkan analisis dari `tailwind.config.js`)
-* **Database**: JSON-Server (disimulasikan melalui `db.json`)
+* **Desktop Application Framework**: [Electron](https://www.electronjs.org/)
+* **Frontend Framework**: [Next.js](https://nextjs.org/) (with [React](https://reactjs.org/))
+* **Programming Language**: [TypeScript](https://www.typescriptlang.org/)
+* **Styling**: [Tailwind CSS](https://tailwindcss.com/) (based on analysis of `tailwind.config.js`)
+* **Database**: JSON-Server (simulated via `db.json`)
 
-## Struktur Proyek
+## Project Structure
 
-* `main/`: Berisi kode untuk proses utama Electron (`background.ts`) yang bertanggung jawab untuk membuat dan mengelola jendela aplikasi.
-* `renderer/`: Berisi kode untuk proses renderer Electron, yang merupakan aplikasi Next.js.
-    * `renderer/app/`: Direktori utama untuk halaman dan komponen aplikasi.
-        * `Products/`: Halaman untuk manajemen produk (CRUD).
-        * `cart/`: Halaman untuk keranjang belanja dan proses checkout.
-        * `Invoices/`: Halaman untuk menampilkan riwayat transaksi.
-* `db.json`: File yang berfungsi sebagai database sederhana untuk menyimpan data produk dan invoice.
+* `main/`: Contains code for the main Electron process (`background.ts`), responsible for creating and managing the application window.
+* `renderer/`: Contains code for the Electron renderer process, which is the Next.js application.
+    * `renderer/app/`: Main directory for the application's pages and components.
+        * `Products/`: Page for product management (CRUD).
+        * `cart/`: Page for the shopping cart and checkout process.
+        * `Invoices/`: Page for displaying transaction history.
+* `db.json`: File that functions as a simple database to store product and invoice data.
 
-## Instalasi dan Menjalankan Proyek
+## Installation and Running the Project
 
-Untuk menjalankan proyek ini di lingkungan lokal, ikuti langkah-langkah berikut:
+To run this project locally, follow these steps:
 
-1.  **Clone repositori ini:**
+1.  **Clone this repository:**
     ```bash
-    git clone [URL_REPOSITORY_ANDA]
-    cd [NAMA_FOLDER_PROYEK]
+    git clone [YOUR_REPOSITORY_URL]
+    cd [YOUR_PROJECT_FOLDER_NAME]
     ```
 
-2.  **Install dependensi:**
-    Pastikan Anda memiliki [Node.js](https://nodejs.org/) dan pnpm terinstal.
+2.  **Install dependencies:**
+    Make sure you have [Node.js](https://nodejs.org/) and pnpm installed.
     ```bash
     pnpm install
     ```
 
-3.  **Jalankan aplikasi dalam mode development:**
+3.  **Run the application in development mode:**
     ```bash
     pnpm dev
     ```
 
-4.  **Untuk membuat build aplikasi:**
+4.  **To build the application:**
     ```bash
     pnpm build
     ```
 
-## Kontributor
+## Contributor
 
 * **Alvino Radyo Danisworo** - A11.2022.14600
 
-* Dibuat sebagai bagian dari Ujian Akhir Semester Pemrograman Berorientasi Objek.
+* Created as part of the Final Semester Exam for Object-Oriented Programming.
